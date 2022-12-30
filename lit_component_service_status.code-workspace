@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "lit_component_service_status",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5502
+	}
+}

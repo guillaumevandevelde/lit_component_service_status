@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>&lt;my-element> Demo</title>
+    <script type="module" src="./lit-service-status-component.js"></script>
+    <style>
+      p {
+        border: solid 1px blue;
+        padding: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <lit-service-status-component
+      apitocheck="https://apidgdv.gent.be/supporting/communication-platform-core/v1/status/am-i-up"
+      onlinetext="Up"
+      offlinetext="Down"
+      onlinecolor="blue"
+      offlinecolor="red"
+    >
+    </lit-service-status-component>
+  </body>
+</html>
